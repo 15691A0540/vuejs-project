@@ -26,6 +26,7 @@
     <span>SURNAME:{{lastname}}</span>
     <p> DETAILS:{{details()}}</p>
      <h1> HARINATH REDDY</h1>
+     <h1>update</h1>
 </div>
 </template>
 <script>

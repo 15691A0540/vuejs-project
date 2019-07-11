@@ -23,8 +23,9 @@
     <input type='text' v-model="update">
     <p>{{ update }}</p>
     <P>FIRST NAME:{{firstname}}</p>
-    <p>LAST NAME:{{lastname}}</p>
+    <span>SURNAME:{{lastname}}</span>
     <p> DETAILS:{{details()}}</p>
+     <h1> HARINATH REDDY</h1>
 </div>
 </template>
 <script>
@@ -38,7 +39,7 @@ export default {
         person:[{name:'harinath',roll:540,dep:'cse'},{name:'harikiran',roll:539,dep:'cse'},{name:'girish',roll:535,dep:'cse'}],
         firstname:'HARINATH REDDY',
         lastname:'SADARA',
-        
+       
 
         }
     },
@@ -57,3 +58,4 @@ table,tr,td,th{
     border-collapse: collapse;
 }
 </style>
+  
